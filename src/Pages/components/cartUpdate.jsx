@@ -74,7 +74,7 @@ export default function CartUpdate() {
     <div className="container mx-4">
       <h1 className="Header m-4">
         Here are your order details
-        <h3>Cart Items: {addToCart()}</h3>
+        <h3>Total Items: {addToCart()}</h3>
         <h3>Total Bill : {calculateTotalBill()}</h3>
       </h1>
       <div className="row row-cols-2 row-cols-md-4 g-4">
